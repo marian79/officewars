@@ -22,12 +22,16 @@ export default class Board extends Component {
             </div>
         );
     }
-    render() {
-        const cells = [];
+    renderCells() {
+        let cells = [];
         let totalCells = this.state.width * this.state.height;
         for(let i = 0; i < totalCells; i++) {
             cells.push(this.renderCell(i));
         }
+        return cells;
+    }
+    render() {
+        const cells = this.renderCells();
         return (
             <div style={{
                 width: '540px',
