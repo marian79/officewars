@@ -1,4 +1,4 @@
-# OfficeWars - game similar to BattleShips but a little bit extended :)
+## OfficeWars - game similar to BattleShips but a little bit extended :)
 (based on React ES6 Webpack Boilerplate)
 
 Game uses the following technologies:
