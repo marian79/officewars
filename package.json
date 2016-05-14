@@ -8,10 +8,6 @@
     "build": "BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
     "lint": "./node_modules/.bin/eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vasanthk/react-es6-webpack-boilerplate.git"
-  },
   "keywords": [
     "react",
     "es6",
