@@ -5,8 +5,8 @@ export default class Board extends Component {
     constructor() {
         super();
         this.state = {
-            width: 24,
-            height: 24
+            width: 20,
+            height: 20
         };
     }
     renderCell(i) {
@@ -34,8 +34,8 @@ export default class Board extends Component {
         const cells = this.renderCells();
         return (
             <div style={{
-                width: '540px',
-                height: '540px',
+                width: '460px',
+                height: '452px',
                 display: 'flex',
                 flexWrap: 'wrap'
             }}>

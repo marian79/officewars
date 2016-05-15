@@ -1,9 +1,38 @@
 <html>
 <head>
     <title>Office Wars</title>
+    <style type="text/css">
+    .react-draggable, .cursor {
+      cursor: move;
+    }
+    .no-cursor {
+      cursor: auto;
+    }
+    .cursor-y {
+      cursor: ns-resize;
+    }
+    .cursor-x {
+      cursor: ew-resize;
+    }
+    .box {
+      box-sizing: border-box;
+      background: blue;
+      border: 1px solid #999;
+      border-radius: 3px;
+      width: 40px;
+      height: 60px;
+      margin: 10px;
+      padding: 10px;
+      float: left;
+    }
+  </style>
 </head>
 <body>
-    <div id='root'></div>
+    <div id='game'>
+        <div id='board'></div>
+        <div id='desk'></div>
+    </div>
+    <div id="container"></div>
     <script src="/static/bundle.js"></script>
 </body>
 </html>
